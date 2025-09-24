@@ -1,39 +1,65 @@
 :root{
     --max-width: 1200px;
     --accent: #111;
-    --muted: #777;
+    --muted: #A4A4A4;
     --hero-height: 520px;
   }
   
-  /* Basic reset & fonts (optionally load Google Fonts) */
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    font-family: 'Nunito Sans', sans-serif;
     color: #222;
     background: #fff;
     line-height: 1.5;
   }
+  .site-header {
+    padding: 20px;
+  }
+  .list-unstyled li a {
+    color: #A4A4A4;
+    text-decoration: none; 
+  }
+  
+  
+  .list-unstyled li a:hover {
+    color: #FFFFFF; 
+  }
   
   /* HERO */
   .hero-section{
-    /* padding: 3.5rem 0; */
     position: relative;
     overflow: visible;
   }
   .hero-image{
     max-height: 420px;
     object-fit: cover;
-    border-radius: 6px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
   }
+  .btn-light {
+    border-radius: 0;
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    
+  }
+  .btn-dark {
+    border-radius: 0;
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+ 
+  }
+
   
-  /* overlay card (like screenshot) */
+  /* overlay card */
   .hero-overlay{
     position: absolute;
     right: 6%;
     top: 50px;
     width: 500px;
-    height: 300px;
-    background: rgba(0,0,0,0.55);
+    height: 250px;
+    background: #0000005C;
     color: #fff;
     padding: 28px;
     border-radius: 4px;
@@ -71,22 +97,56 @@
   /* SECTION TITLES */
   .section-title{
     font-weight:700;
-    font-size:1.5rem;
+    font-size:38px;
     margin-bottom:0.25rem;
+    position: relative; 
+  display: inline-block;
+  padding-bottom: 10px;
+ 
+  }
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    width: 10%;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+  .text-center {
+    text-align: center;
   }
   .nav-link{
     font-size: 16px;
     font-weight: 700;
     line-height: 16px;
-    /* font-family: Proxima Nova; */
     
   }
   
   /* FOOTER */
-  .site-footer { border-top-left-radius: 12px; border-top-right-radius: 12px; }
   .site-footer a { text-decoration: none; color: inherit; }
+  .site-footer h6 {
+    font-weight: 700;        
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif; 
+  }
   
-  /* Responsive tweaks */
+  .site-footer address p {
+    color: #A4A4A4;
+  }
+  
+  .site-footer a:hover {
+    color: #FFFFFF;
+  }
+  
+  
+  .site-footer h6.text-white {
+    color: #FFFFFF;
+  }
+  
+  /* Responsive */
   @media (max-width: 991px){
     .hero-overlay{ display:none; }
     .product-card img{ height:220px; }
