@@ -3,8 +3,6 @@ Translating the Figma design into HTML Template, with the specified standards an
 # 🎨 Figma to HTML Conversion – 2HatsLogic E-Commerce Design Test
 
 This project is a pixel-perfect **HTML template** developed by converting the given Figma design into responsive HTML using **Bootstrap 5**, semantic HTML, and optimized assets.  
-The focus is on **code quality, responsiveness, performance, and standards compliance**.
-
 ---
 
 ## 📌 Design Source
