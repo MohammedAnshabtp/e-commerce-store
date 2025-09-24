@@ -16,18 +16,6 @@ The original design file is available on Figma:
 - Maintain **Bootstrap 5 standards** and ensure responsive layouts.
 - Deliver a **retina-ready, optimized, and clean coded** solution.
 
-## 📂 Project Structure
-project/
-│── index.html # Main landing page
-│── /css
-│ └── style.css # Custom styles
-│── /js
-│ └── script.js # Custom scripts
-│── /assets
-│ ├── /images # Optimized images
-│ └── /fonts # Fonts (Proxima Nova, etc.)
-└── README.md # Documentation
-
 ## 🚀 How to View the Website
 The site is live at:  
 👉 [[https://<your-username>.github.io/my-website/](https://<your-username>.github.io/my-website/)](https://mohammedanshabtp.github.io/e-commerce-store/)
